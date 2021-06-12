@@ -1,0 +1,145 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login V6</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="{% static 'images/icons/favicon.ico' %}"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'fonts/font-awesome-4.7.0/css/font-awesome.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'fonts/iconic/css/material-design-iconic-font.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/animate/animate.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/css-hamburgers/hamburgers.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/animsition/css/animsition.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/select2/select2.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/daterangepicker/daterangepicker.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'css/util.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+<!--===============================================================================================-->
+
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100 " style="width: 500px">
+				<form class="login100-form validate-form" method="post" action="TextAEnhanced.html">
+					{% csrf_token %}
+					<span class="login100-form-title" style="text-align: left;">
+						Text 1 Fysio4DenBosch (Enhaced Version)
+					</span>
+
+					<p>Your Secound text please read it carefully.</p><br>
+
+					
+					<h3>Start fysiotherapeutisch traject</h3>
+
+                    <span>Als u geïnteresseerd bent in een fysiotherapeutische behandeling, kunt u zich altijd aanmelden
+						voor een intakegesprek. U heeft hier geen doorverwijsbrief van de huisarts voor nodig. Bij het
+						intakegesprek wordt gekeken of fysiotherapie de beste optie is voor uw klachten. Als dit niet het
+						geval is wordt u altijd doorverwezen naar uw huisarts of een andere specialist. Het intakegesprek
+						verloopt als volgt:
+						
+						<ul>
+							<li>- Screening</li>
+							<li>- Anamnese</li>
+							<li>- Lichamelijk onderzoek</li>
+						</ul>
+					
+					</span>
+
+					<h3>Screening</h3>
+
+					<span>Voor een fysiotherapeutische behandeling kunt u zowel met als zonder verwijzing bij onze
+						praktijk terecht. Het behandeltraject start met een screening, intake en onderzoek. Dit proces
+						bestaat uit uw aanmelding, een inventarisatie van uw hulpvraag (anamnese), lichamelijk
+						onderzoek, onderzoek of fysiotherapie geïndiceerd is bij uw klachten en advies over de
+						bevindingen van het screeningsproces.
+						Als de fysiotherapeut twijfelt of fysiotherapie de beste aanpak is voor uw klachten, of als er
+						mogelijk een andere, ernstige oorzaak aan uw klachten ten grondslag ligt, zult u altijd
+						doorverwezen worden naar uw huisarts of andere specialist.</span>
+
+					<h3>Anamnese</h3>
+
+					<span>Een onderdeel van het screeningsproces is de anamnese. Tijdens de anamnese stelt de
+						fysiotherapeut u vragen over uw klachten waarmee zij uw hulpvraag in kaart proberen te
+						brengen. De gestelde vragen hebben betrekking op uw dagelijkse activiteiten, klachten zoals
+						pijn, stijfheid en vermoeidheid, uw spierkracht en mobiliteit, maar ook uw persoonlijke en externe
+						factoren. Daarnaast let de fysiotherapeut op zogenaamde ‘rode vlaggen’. Dit zijn signalen die
+						aangeven dat er een andere, meer ernstige oorzaak ten grondslag kan liggen aan uw klachten.
+						In dit geval zal de fysiotherapeut u altijd doorverwijzen naar uw huisarts of specialist.
+					</span>
+
+					<h3>Lichamelijk onderzoek</h3>
+
+					<span>Na de anamnese volgt het lichamelijk onderzoek. De fysiotherapeut onderzoekt hierbij uw spieren gewrichtsfuncties met behulp van verschillende meetinstrumenten (tests). Er wordt daarnaast
+						gekeken naar uw houding en naar de bewegingsruimte van uw lichaam. Om uw klacht zo goed
+						mogelijk te kunnen onderzoeken en beoordelen, kan het zijn dat de therapeut u vraagt een
+						kledingstuk uit te trekken. Zo kan de therapeut bijvoorbeeld de stand van de heupen te bekijken
+						bij een rug- of heupklacht. Uiteraard mag u hierbij altijd uw ondergoed aanhouden. Vervolgens
+						zal de therapeut zijn of haar bevindingen met u bespreken en een behandelplan voorstellen om
+						uw klachten aan te pakken.</span>
+
+					<h3>Kosten</h3>
+
+					<span>Wettelijk is de therapeut verplicht om bij aanvang van een behandeltraject een intake en
+						onderzoek na verwijzing of een screening, intake en onderzoek uit te voeren. Deze prestatie
+						wordt vergoedt door uw verzekeraar indien u hiervoor (voldoende) verzekerd bent, anders
+						gelden er voor deze prestatie onze particuliere tarieven.</span>
+
+
+					<h3>Afspraak maken</h3>
+
+					<span>Wilt u een afspraak maken voor de behandeling van uw klacht of wilt u graag meer informatie? U
+						kunt contact opnemen met de praktijk via telefoonnummer 073-6140505 of mail
+						naar info@fysio4denbosch.nl.</span>
+
+
+					
+                    
+					
+                    <br><br><br>
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn" name="choice" value="TextAEnhanced">
+							I'm done.
+						</button>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="dropDownSelect1"></div>
+	
+<!--===============================================================================================-->
+	<script src="{% static 'vendor/jquery/jquery-3.2.1.min.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor/animsition/js/animsition.min.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor/bootstrap/js/popper.js' %}"></script>
+	<script src="{% static 'vendor/bootstrap/js/bootstrap.min.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor/select2/select2.min.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor/daterangepicker/moment.min.js' %}"></script>
+	<script src="{% static 'vendor/daterangepicker/daterangepicker.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor/countdowntime/countdowntime.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'js/main.js' %}"></script>
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login V6</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="{% static 'images/icons/favicon.ico' %}"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'fonts/font-awesome-4.7.0/css/font-awesome.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'fonts/iconic/css/material-design-iconic-font.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/animate/animate.css' %}">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/css-hamburgers/hamburgers.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/animsition/css/animsition.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/select2/select2.min.css' %}">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/daterangepicker/daterangepicker.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'css/util.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100 ">
+				<form class="login100-form validate-form" method="post" action="index.html">
+					{% csrf_token %}
+					<span class="login100-form-title">
+						Welcome
+					</span>
+
+
+					<div class="wrap-input100 validate-input m-t-50 m-b-35" data-validate = "Enter username">
+						<input class="input100" type="text" name="username">
+						<span class="focus-input100" data-placeholder="Username"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-t-50 m-b-35" >
+						<input class="input100" type="number" name="Age">
+						<span class="focus-input100" data-placeholder="Age"></span>
+					</div>
+
+
+					<div class="wrap-input101 validate-input m-t-50 m-b-35">
+						
+						<span class="focus-input100" data-placeholder="Gender"></span>
+					</div>
+					<br><br><br>
+						
+					<div class="form-check" style="margin-left: 30px">
+					  <input class="form-check-input" type="radio" name="flexRadioDefault" value="male" id="flexRadioDefault1" required>
+					  <label class="form-check-label" style="font-family: Kaushan Script; font-size: 15px;  color: #999999" for="flexRadioDefault1">
+					    Male
+					  </label>
+					</div>
+
+					<div class="form-check" style="margin-left: 30px">
+					  <input class="form-check-input" type="radio" name="flexRadioDefault" value="female" id="flexRadioDefault1">
+					  <label class="form-check-label" style="font-family: Kaushan Script; font-size: 15px;  color: #999999" for="flexRadioDefault1">
+					    Female
+					  </label>
+					</div>
+
+					<div class="form-check" style="margin-left: 30px">
+					  <input class="form-check-input" type="radio" name="flexRadioDefault" value="rather not say" id="flexRadioDefault1">
+					  <label class="form-check-label" style="font-family: Kaushan Script; font-size: 15px;  color: #999999" for="flexRadioDefault1">
+					    Rather not say
+					  </label>
+					</div>
+
+					<br>
+					  
+					
+
+					
+
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							Start Experiment
+						</button>
+					</div>
+
+					<ul class="login-more ">
+
+						<li>
+							<span class="txt1">
+								By continuing you accept our
+							</span>
+
+							<a href="TermOfUse.html" class="txt2">
+								 Terms Of Use
+							</a>
+						</li>
+					</ul>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="dropDownSelect1"></div>
+	
+<!--===============================================================================================-->
+	<script src="{% static 'vendor/jquery/jquery-3.2.1.min.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor/animsition/js/animsition.min.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor/bootstrap/js/popper.js' %}"></script>
+	<script src="{% static 'vendor/bootstrap/js/bootstrap.min.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor/select2/select2.min.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor/daterangepicker/moment.min.js' %}"></script>
+	<script src="{% static 'vendor/daterangepicker/daterangepicker.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor/countdowntime/countdowntime.js' %}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'js/main.js' %}"></script>
+
+</body>
+</html>
